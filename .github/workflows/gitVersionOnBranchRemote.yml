@@ -4,6 +4,8 @@ name: gitVersionOnBranch
 
 # Controls when the workflow will run
 on:
+  repository_dispatch:
+  workflow_call:
   push:
     branches:
       #- main
