@@ -31,4 +31,3 @@ patch-version-bump-message: '\+semver:\s?(fix|patch)'
 ignore:
   sha: []
 merge-message-formats: {}
-#test6
